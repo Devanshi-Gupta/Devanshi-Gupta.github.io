@@ -1,0 +1,294 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+}
+header{
+    background-color: #f7f7f7;
+    padding: 1rem;
+}
+.topnav{
+    float: left !important;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    margin-right: 1rem;
+}
+nav ul li a{
+    color: #333;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    
+    text-decoration: underline;
+}
+
+
+
+
+.infoContainer{
+    height: 85vh;
+    width: 80vw;
+    margin: auto;
+    display: flex; 
+    justify-content: space-around; 
+}
+.displayName{
+    display: flex;
+
+}
+ .devInfo{
+     /* font-size: 3rem; */
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+.hello{
+    font-size: 3rem;
+}
+.name{
+    font-size: 3rem;
+    margin: 0 20px;
+    font-weight: bold;
+    
+}
+.about{
+    font-size: 2rem;
+}
+.moreabout{
+    font-size: 1rem;
+   
+    margin-top: 3rem;
+}
+.buttons{
+    margin-top: 2.1em;
+    font-size: 14px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 1.5em;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img{
+   
+    height: 59vh;
+}
+ .projectContainer img{
+    height: 90px;
+    justify-content: center;
+    /* width: 14%; */
+}
+@media (max-width:1180px)  {
+    
+    .devPic{
+        display: none;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+}
+
+
+.contactContainer{
+    margin: 20px;
+}
+
+
+
+.job{
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.jobTitle{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.jobDates{
+    font-size: 1rem;
+    color: #999;
+    margin-bottom: 1rem;
+    
+}
+.jobDescription{
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+
+}
+
+.imageAlignment{
+    display: flex;
+    align-items: center;
+}
+.socialProfileItem{
+    margin: 0.5em;
+    padding: 1em;
+    text-decoration: none;
+}
+.socialProfileItem:hover{
+    border-style: solid;
+    border-radius: 1em;
+}
+
+.displayFlex{
+    display: flex;
+}
+
+.personalInformationItem .text{
+    padding-left: 10px;
+    font-size: 1em;
+}
+
+
+
+/* .third {
+
+} */
+.container {
+    margin-top:16px!important ;margin-bottom:16px!important ;
+}
+
+
+
+
+.hover-opacity:hover{opacity:0.60}
+/* end contact page */
+
+
+
+.educationContainer{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.degreeContainer{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.workExperience{
+    margin-top: 2rem;
+}
+
+.sectionTitle{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.job{
+    margin-top: 2rem;
+}
+
+.jobTitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.rem;
+}
+
+.jobDescription{
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+    list-style: disc;
+}
+
+.workExperience{
+    margin-top: 2rem;
+}
+
+.sectionTitle{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.skillField {
+    list-style-type: none;
+    margin-bottom: 2rem ;
+    overflow: hidden;
+  }
+
+.skill{
+    margin: 1rem;
+}
+.skillItem{
+    float: left;
+    padding:1rem;
+    margin: 0.3rem;
+    border-style: groove ;
+    border-radius: 1em;
+}
+
+.skillItem:hover {
+    color: navy;
+    background-color: rgb(167, 167, 165);
+    
+  }
+
+  .myProjectsContainer{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.projectContainer{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#moreDeployment, #moreCafe, #moreLibrary, #moreCyber, #morePdf , #moreAttainment{
+    display: none;
+}
+#myBtnDeployment, #myBtnCafe, #myBtnLibrary, #myBtnCyber, #myBtnPdf , #myBtnAttainment{
+    padding: 7px 9px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.displayName{
+    display: flex;
+
+}
+
+.white {
+    color:#000!important;background-color:#fff!important;
+    margin-left: 1em;
+}  

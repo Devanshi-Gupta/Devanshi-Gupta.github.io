@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">About-me</a></li>
+                <li><a href="/skills.html">Skills</a></li>
+                <li><a href="/myProjects.html">Projects</a></li>
+                <li><a href="/workExperience.html">Work Experience</a></li>
+                <li><a href="/education.html">Education</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+
+        <div class="myProjectsContainer">
+            <div class="projectContainer displayName">
+                <img src="images/salesperformancemanagement.png" alt="image1" class="hover-opacity">
+                <div class=" white">
+                    <h2>Sales Representative and deployment Mangement System</h2>
+                    <h3>Oct- 2020 - Present</h3>
+                    <p>The sales Representative Management System is a web-based application developed for Pharma market
+                        using Angular and Java technologies, The system is designed to help businesses plan, deploy, and
+                        manage their sales representatives efficiently.
+                    </p>
+                    <span id="dotsDeployment">...</span>
+                    <span id="moreDeployment">
+                    <p> The system provides an intitive user interfaces that allows Admin and Field users to create and
+                        manage sales territories, business rules, territory design, alignment, roster management. Field
+                        users van view their assigned territories, manage their appointments and leads.</p>
+                    <p>It helps in better planning and improve efficiency and with proper execution it will help give user with
+                        increased sales.</p>
+                    <p>The system uses a PostgreSQL Database to store all the data related to planning and roster
+                        management, territories and customer data. The data is securely accessed using RESTful APIs
+                        build using Java Spring framework.</p>
+                       
+                    <h4>Features :</h4>
+                    <ul>
+                        <li><b>User authetication and Authorization : </b>Only authorized users can access the system
+                        </li>
+                        <li><b>Sales territory management : </b>Field users can view and manage sales territories</li>
+                        <li><b>Customer and Zip management : </b>Manage and do the alignments for appointments</li>
+                        <li><b>Assignment management : </b>View and manage sales reps and products to deal with
+                            customers</li>
+                        <li><b>Bitemporal timeline : </b>Changes can be managed across bitemporal timeline.</li>
+                        <li><b>Report : </b>Sales managers can generate Reports to track the changes and performances.
+                        </li>
+
+                        <li><b>Import and Export : </b>The data can be populated on bulk and Sales managers can export
+                            the valid data from DB to track the changes.</li>
+                    </ul>
+                    <h4>Technologies Used :</h4>
+                    <ul>
+                        <li><b>Frontend : </b>Angular 13, HTML 5, CSS 3, TypeScript</li>
+                        <li><b>Backend : </b>Java 11, Spring Boot, Spring MVC, Factory Design Pattern</li>
+                        <li><b>Database : </b>PostgreSQL</li>
+                        <li><b>APIs : </b>RESTful APIs</li>
+                        <li><b>Tools : </b>Visual Studio Code, IntelliJ, Bit Bucket, JUnit, Mockito, Jasmine, Postman
+                        </li>
+                        <li><b>Frontend : </b>Angular 13, HTML 5, CSS 3, TypeScript</li>
+                    </ul>
+
+                    <ul>
+                        <li>It is designed and implemented using RESTful APIs and JAVA Spring framework</li>
+                        <li>Also it is protected with unit and integration tests using JUnit and Jasmine for backend and
+                            frontend respectively.</li>
+                    </ul>
+                </span>
+                <button onclick="readMoreFunctionDeploymentProject()" id="myBtnDeployment">Read more</button>
+                </div>
+            </div>
+            <div class="projectContainer displayName">
+                <img src="images/salesrepmanagement.png" alt="image1" class="hover-opacity">
+                <div class=" white">
+                    <h2>Angular Sales attainment rank and CRUD Project</h2>
+                    <h3>July 2020 - Sept 2020</h3>
+                    <p>Built a web-based application developed using the Angular framework. The purpose is to provide an
+                        interface for users to perform Create, Read, Update and Delete (CRUD) operations and store data
+                        in database.
+                    </p>
+                    <span id="dotsAttainment">...</span>
+                    <span id="moreAttainment">
+                    <p>It also helps to view historical sales data of drug(Sales attainment rank problem)
+                    </p>
+                    <p>It is developed to track sales of my product and performance of my sales representative?”</p>
+                    <p>Web application allow end user to create new Sales Rep. Existing sales rep can also be viewed in
+                        the application. Web application needs to have the capability to upload the (historical) data.
+                        Steps have been added on run business functionality. Result(insights) of the same will be
+                        helpful to be displayed on the UI. </p>
+                        
+                    <h4>Features :</h4>
+
+                    <ul>
+                        <li><b>Drug of the month : </b>It tells top 3 Drugs which Performed the best</li>
+                        <li><b>Rep of the month : </b>It tells top 3 representatives which Performed the best in selling
+                            the drug</li>
+                        <li><b>City wise rank declaration : </b>It tells Drug which Performed the best in which city
+                        </li>
+                        <li><b>Month wise performance visibility : </b>We can look into performance of previous months
+                        </li>
+                        <li><b>Angular CRUD operations on representatives : </b>
+                        <li>Displays the details about the sales representative list data</li>
+                        <li> Gives the option of create new to add new record</li>
+                        <li> Delete the record from the list</li>
+                        <li> Edit the name country of a record
+                        </li>
+                        </li>
+                        <li><b>Upload historical data : </b>Data to be upload for performance calculations</li>
+
+                    </ul>
+                </span>
+                    <button onclick="readMoreFunctionAttainmentProject()" id="myBtnAttainment">Read more</button>
+                    
+                </div>
+            </div>
+
+
+
+
+
+            <div class="projectContainer displayName">
+                <img src="images/pdffromapache.png" alt="image1" class="hover-opacity">
+                <div class=" white">
+                    <h2>PDF Creation using Java</h2>
+                    <h3>June 2019- July 2019</h3>
+                    <p>The PDF creation using Apache PDFBox Library is a JAVA based project designed to create PDF
+                        documents dyamically. The project is build using the APACHE PDFBox library, a powerful
+                        open-source library for working with PDF documents in JAVA</p>
+                        <span id="dotsPdf">...</span>
+                        <span id="morePdf">
+                        <p>The project creates the PDF with
+                    <ul>
+                        <li>text and paragraph</li>
+                        <li>images</li>
+                        <li>Font size and styling with colors</li>
+                        <li>header and footer</li>
+                        <li>Page numbers</li>
+                        <li>Tables to display data</li>
+                        <li>Introducing lines and shapes for distinction as same as we use in a normal document</li>
+                    </ul> to suit the needs.</p>
+                    <h4>Technologies Used</h4>
+                    <ul>
+                        <li>JAVA, Apache PDFBox library</li>
+                    </ul>
+                </span>
+                <button onclick="readMoreFunctionPDFProject()" id="myBtnPdf">Read more</button>
+                </div>
+            </div>
+            <div class="projectContainer displayName">
+                <img src="images/cybersecurity.png" alt="image1" class="hover-opacity">
+                <div class=" white">
+                    <h2>Research and Development on Cyber Security protocols</h2>
+                    <h3>May 2019</h3>
+                    <p>It is designed to explore cyber security protocols such as SAML, OAuth etc. which is needed for
+                        the security of digital systems.</p>
+                    <p>The project involves Research on latest cybersecurity threats including viruses, malware and
+                        phishing attacks.
+                    </p>
+                    <span id="dotsCyber">...</span>
+                    <span id="moreCyber">
+                    <p> The Research also involves studying the latest cybersecurity threats,
+                        protocols and best practices.</p>
+                    </span>
+                    <button onclick="readMoreFunctionCyberProject()" id="myBtnCyber">Read more</button>
+                   
+                </div>
+            </div>
+            <div class="projectContainer displayName">
+                <img src="images/librarymanagementsystem.png" alt="image1" class="hover-opacity">
+                <div class=" white">
+                    <h2>Library Management System</h2>
+                    <h3>July 2018</h3>
+                    <p>The library management system is a web-based project designed to manage the oprtations of a
+                        library, including the borrowing and returning of books, vataloging and managing the library's
+                        invertory. The project offers an easy-to-use interface for library staff and members to manage
+                        and access information about the library's books.
+                    </p> <span id="dotsLibrary">...</span>
+                    <span id="moreLibrary">
+                    <h4>Features:</h4>
+                    <ul>
+                        <li><b>Books Cataloging : </b>The project enables the library staff to catalog and organize
+                            books by author, title and other parameters.</li>
+                        <li><b>Book Issuance : </b>The project enables library staff to issue and return books to
+                            members.</li>
+                        <li><b>Member Management : </b>It allows staff to manage member information.</li>
+                        <li><b>Search and Filtering :</b>It allows to easily locate books and students based on title,
+                            author and other parameters.</li>
+                        <li><b>Security Features : </b>Only authorized users can access the system.</li>
+                    </ul>
+                </span>
+                <button onclick="readMoreFunctionLibraryProject()" id="myBtnLibrary">Read more</button>
+                </div>
+            </div>
+            <div class="projectContainer displayName">
+                <img src="images/cafemanagementsystem.png" alt="image1" class="hover-opacity">
+                <div class=" white">
+                    <h2>Cafe Management System</h2>
+                    <h3>June 2018</h3>
+                    <p>The library management system is a web-based project designed to manage the cafe operations
+                        efficiently. The system is developed using JAVA and JFrame technologies.
+                    </p>
+                    <span id="dotsCafe">...</span>
+                    <span id="moreCafe">
+                    <p>The system provides an intuitive user interfaces that allows cafe managers to manage orders,
+                        manage tables and process bills.</p>
+                    <p>It generates the bills based on orders and calculate the amount with respect to the tax
+                        additions.</p>
+                    </span>
+                    <button onclick="readMoreFunctionCafeProject()" id="myBtnCafe">Read more</button>
+                   
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
